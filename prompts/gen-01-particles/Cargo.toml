@@ -1,0 +1,19 @@
+[package]
+name = "gen-01-particles"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools.workspace = true
+nom.workspace = true
+bevy_app_compute.workspace = true
+bevy.workspace = true
+bevy_xpbd_3d.workspace = true
+bevy_tweening.workspace = true
+bevy_mod_picking.workspace = true
+bevy_basic_camera.workspace = true
+
+[dev-dependencies]
+rstest.workspace = true
